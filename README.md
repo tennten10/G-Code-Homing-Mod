@@ -1,2 +1,4 @@
 # G-Code-Homing-Mod
 this code was made to combat skipped steps during long 3D prints in order to maybe salvage a print. It inserts a homing command every n number of layers to compensate for any slippage in the belts. It isn't perfect and correct calibration of your printer is always best, but it can be useful under certain circumstances. It is written in Java and has a dialog box that pops up with a slider to adjust the number of layers, and a way to select your G-code file that you want modified. During my own tests, I found that sometimes the end of prints were cut out of the code so they would stop early. I haven't taken the time to find the issue since I no longer need the tool. Like it if you find it useful! 
+
+If you want immediate functionality, the .jar file will run the program on most machines. The source code is available in HomeOffsetSoftFix.java
